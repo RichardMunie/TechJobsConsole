@@ -119,7 +119,7 @@ namespace TechJobsConsole
 
         private static void PrintJobs(List<Dictionary<string, string>> someJobs)
         {
-            someJobs.Sort();
+            //someJobs.Sort();
             if (someJobs.Count > 0)
             {
                 Console.WriteLine("**********************************************");
